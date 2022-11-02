@@ -17,7 +17,7 @@ There are a number of bindings available for the ``Trigger`` class. All of these
 whenActive/whenPressed
 ^^^^^^^^^^^^^^^^^^^^^^
 
-This binding schedules a command when a trigger changes from inactive to active (or, accordingly, when a button changes is initially pressed). The command will be scheduled on the iteration when the state changes, and will not be scheduled again unless the trigger becomes inactive and then active again (or the button is released and then re-pressed).
+This binding schedules a command when a trigger changes from inactive to active (or, accordingly, when a button is initially pressed). The command will be scheduled on the iteration when the state changes, and will not be scheduled again unless the trigger becomes inactive and then active again (or the button is released and then re-pressed).
 
 whileActiveContinuous/whileHeld
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
